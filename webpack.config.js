@@ -32,7 +32,7 @@ module.exports = {
   },
   plugins: [
     new BrowserSyncPlugin({
-      host: 'localhost',
+      host: 'https://maxgame01.herokuapp.com/',
       port: 5000,
       server: { baseDir: ['dist'] },
       files: ['./dist/*'],
